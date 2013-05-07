@@ -350,6 +350,8 @@ h1 {
   text-align: center;
   letter-spacing: 0.5em;
 }
+.site-title a:hover{
+}
 h2 {
   line-height: 50px;
   font-size: 34px;
@@ -610,7 +612,7 @@ article .meta .post-categories li {
 .next-page a, .past-page a {
   font-size: 2em;
   font-family: "Quicksand", Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   padding: 10%;
 }
@@ -727,20 +729,35 @@ html[xmlns] .clearfix {
       font-size: 0.7em;
       line-height: 1em;
     }
-    .menu-main-nav-container a{
+    .menu-main-nav-container a, .side-title{
       font-size: 1em;
       line-height: 1.5em;
     }
   }
 
   /* Smaller than standard 960 (devices and browsers) */
-  @media only screen and (max-width: 959px) {}
+  @media only screen and (max-width: 959px) {
+    .side-title{
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+  }
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
-  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .side-title{
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+  }
 
   /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {}
+  @media only screen and (max-width: 767px) {
+    .side-title{
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+  }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -756,7 +773,7 @@ html[xmlns] .clearfix {
       font-size: 10px !important;
       line-height: 50px;
     }
-    .menu-main-nav-container a{
+    .menu-main-nav-container a, .side-title{
       font-size: 1em;
       line-height: 1.5em;
     }
@@ -776,7 +793,7 @@ html[xmlns] .clearfix {
       font-size: 6px !important;
       line-height: 30px;
     }
-    .menu-main-nav-container a{
+    .menu-main-nav-container a, .side-title{
       font-size: 1em;
       line-height: 1.5em;
     }

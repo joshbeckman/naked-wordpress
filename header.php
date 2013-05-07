@@ -53,7 +53,4 @@
 		
 </header><!-- #masthead .site-header -->
 
-<div class="container"><!-- start the page containter -->
-
-	<div id="primary" class="row-fluid">
-		<div id="content" role="main" class="span8 offset2">
+<div class="main-fluid"><!-- start the page containter -->

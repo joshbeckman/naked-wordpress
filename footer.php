@@ -4,8 +4,6 @@
 	/* rendering the page and display the footer area/content
 	/*-----------------------------------------------------------------------------------*/
 ?>
-		</div><!-- #content .site-content -->
-	</div><!-- #primary .content-area -->
 
 </div><!-- / end page container-->
 

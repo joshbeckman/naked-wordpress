@@ -209,6 +209,22 @@
 .container-fluid:after {
   clear: both;
 }
+.main-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px;
+  max-width: 1300px;
+  *zoom: 1;
+}
+.main-fluid:before,
+.main-fluid:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.main-fluid:after {
+  clear: both;
+}
 
 /* #Base 960 Grid (Inspired by Skeleton)
 ================================================== */
@@ -385,9 +401,11 @@
         .container .columns,
         .container .column { padding-left: 0; padding-right: 0; }
 
-        .row-fluid [class*="span"] { width: 96%; margin-left:2%;}
+        .row-fluid [class*="span"],
+        .row-fluid [class*="span"]:first-child { width: 96%; margin-left:2%;}
 
-        .row-fluid [class*="offset"], .row-fluid [class*="offset"]:first-child { margin-left: 0%; }
+        .row-fluid [class*="offset"], 
+        .row-fluid [class*="offset"]:first-child { margin-left: 2%; }
 
         .container .one.column,
         .container .one.columns,
@@ -443,7 +461,7 @@
 
         .row-fluid [class*="span"] { width: 96%; margin-left: 2%;} 
 
-        .row-fluid [class*="offset"], .row-fluid [class*="offset"]:first-child { margin-left: 0%; }       
+        .row-fluid [class*="offset"], .row-fluid [class*="offset"]:first-child { margin-left: 2%; }       
 
         .container .one.column,
         .container .one.columns,

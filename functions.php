@@ -23,6 +23,24 @@ register_nav_menus(
 );
 
 /*-----------------------------------------------------------------------------------*/
+/* ACTIVATE SIDEBAR for Wordpress use
+/*-----------------------------------------------------------------------------------*/
+function naked_register_sidebars() {
+	register_sidebar(array(
+		'id' => 'sidebar',
+		'name' => 'Sidebar',
+		'description' => 'Take it on the side...',
+		'before_widget' => '<div>',
+		'after_widget' => '</div>',
+		'before_title' => '<h3 class="side-title">',
+		'after_title' => '</h3>',
+		'empty_title'=> '',
+	));
+} 
+// adding sidebars to Wordpress (these are created in functions.php)
+add_action( 'widgets_init', 'naked_register_sidebars' );
+
+/*-----------------------------------------------------------------------------------*/
 /* Enque Styles and Scripts
 /*-----------------------------------------------------------------------------------*/
 

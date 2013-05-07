@@ -5,6 +5,8 @@
  */
 
 get_header(); // This fxn gets the header.php file and renders it ?>
+	<div id="primary" class="row-fluid">
+		<div id="content" role="main" class="span8 offset2">
 
 			<?php if ( have_posts() ) : 
 			// Do we have any posts in the databse that match our query?
@@ -59,3 +61,6 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 				</article>
 
 			<?php endif; // OK, I think that takes care of both scenarios (having a post or not having a post to show) ?>
+
+		</div><!-- #content .site-content -->
+	</div><!-- #primary .content-area -->
