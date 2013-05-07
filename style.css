@@ -529,7 +529,6 @@ article .title {
   font-size: 38px;
   font-size: 3.8rem;
   font-weight: 400;
-  font-weight: 300;
   text-align: center;
   letter-spacing: 0.1em;
 }
@@ -715,7 +714,24 @@ html[xmlns] .clearfix {
 ================================================== */
 
   /* Those wide screens above 1280px */
-  @media only screen and (min-width: 1281px) {}
+  @media only screen and (min-width: 1281px) {
+    body{
+      font-size: 2.5em;
+      line-height: 1.5em;
+    }
+    article .title{
+      font-size: 1.8em;
+      line-height: 1.5em;
+    }
+    article .post-meta{
+      font-size: 0.7em;
+      line-height: 1em;
+    }
+    .menu-main-nav-container a{
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+  }
 
   /* Smaller than standard 960 (devices and browsers) */
   @media only screen and (max-width: 959px) {}
@@ -728,16 +744,40 @@ html[xmlns] .clearfix {
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
+    body, article .post-meta{
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+    article .title{
+      font-size: 2em;
+      line-height: 1.5em;
+    }
     .site-title{
       font-size: 10px !important;
       line-height: 50px;
+    }
+    .menu-main-nav-container a{
+      font-size: 1em;
+      line-height: 1.5em;
     }
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
   @media only screen and (max-width: 479px) {
+    body, article .post-meta{
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+    article .title{
+      font-size: 2em;
+      line-height: 1.5em;
+    }
     .site-title{
       font-size: 6px !important;
       line-height: 30px;
+    }
+    .menu-main-nav-container a{
+      font-size: 1em;
+      line-height: 1.5em;
     }
   }
