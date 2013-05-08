@@ -21,6 +21,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 						<h1 class="title"><?php the_title(); // Display the title of the post ?></h1>
 						<div class="post-meta">
 							<?php the_time('m.d.Y'); // Display the time it was published ?>
+							<?php // the author(); Uncomment this and it will display the post author ?>
 						
 						</div><!--/post-meta -->
 						
@@ -57,10 +58,11 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<?php else : // Well, if there are no posts to display and loop through, let's apologize to the reader (also your 404 error) ?>
 				
 				<article class="post error">
-					<h1 class="404">Nothing posted yet</h1>
+					<h1 class="404">Nothing has been posted like that yet</h1>
 				</article>
 
 			<?php endif; // OK, I think that takes care of both scenarios (having a post or not having a post to show) ?>
 
 		</div><!-- #content .site-content -->
 	</div><!-- #primary .content-area -->
+<?php get_footer(); // This fxn gets the footer.php file and renders it ?>

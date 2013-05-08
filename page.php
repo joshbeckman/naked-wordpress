@@ -43,3 +43,4 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
 		</div><!-- #content .site-content -->
 	</div><!-- #primary .content-area -->
+<?php get_footer(); // This fxn gets the footer.php file and renders it ?>

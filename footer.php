@@ -5,11 +5,15 @@
 	/*-----------------------------------------------------------------------------------*/
 ?>
 
-</div><!-- / end page container-->
+</div><!-- / end page container, begun in the header -->
 
 <footer class="site-footer" role="contentinfo">
 	<div class="site-info container">
-		<?php do_action( 'break_credits' ); ?>
+		
+		<p>Birthed <a href="http://bckmn.com/naked-wordpress" rel="theme">Naked</a> 
+			on <a href="http://wordpress.org" rel="generator">Wordpress</a> 
+			by <a href="http://bckmn.com" rel="designer">Joshua Beckman</a>
+		</p>
 		
 	</div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->

@@ -70,7 +70,10 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<?php else : // Well, if there are no posts to display and loop through, let's apologize to the reader (also your 404 error) ?>
 				
 				<article class="post error">
-					<h1 class="404">Nothing posted yet</h1>
+					<h1 class="404">Nothing has been posted like that yet</h1>
 				</article>
 
 			<?php endif; // OK, I think that takes care of both scenarios (having posts or not having any posts) ?>
+		</div><!-- #content .site-content -->
+	</div><!-- #primary .content-area -->
+<?php get_footer(); // This fxn gets the footer.php file and renders it ?>

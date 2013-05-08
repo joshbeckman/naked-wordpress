@@ -344,14 +344,6 @@ h1 {
   font-size: 48px;
   font-size: 4.8rem;
 }
-.site-title a{
-  text-transform: uppercase;
-  font-size: 4em;
-  text-align: center;
-  letter-spacing: 0.5em;
-}
-.site-title a:hover{
-}
 h2 {
   line-height: 50px;
   font-size: 34px;
@@ -419,13 +411,13 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-size: 0.7em;
+  line-height: 1.5em;
   margin-bottom: 1.6em;
   padding: 1.6em;
   overflow: auto;
   max-width: 100%;
+  box-shadow: 0 3px 5px #ddd inset;
 }
 /* Links */
 a {
@@ -463,6 +455,16 @@ a:active {
 }
 /* Header
 -------------------------------------------------------------- */
+.site-title a{
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: center;
+}
+.site-title a:hover{
+}
+.site-description{
+  font-style: italic;
+}
 header {
   padding: 20px 0;
   background: transparent;
@@ -479,7 +481,7 @@ header .gravatar {
   float: right;
 }
 header #brand {
-
+  margin:1em 0;
 }
 header #brand h1 {
   font-weight: 900;
@@ -489,6 +491,7 @@ header #brand h1 {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  letter-spacing: 0.45em;
 }
 header #brand h1 a {
   color: #565656;
@@ -678,12 +681,7 @@ footer {
 }
 /* Misc & mixens
 -------------------------------------------------------------- */
-/* Jetpack Gallery */
-.gallery .gallery-item {
-  margin-top: 0 !important;
-}
-.gallery img {
-  border: none !important;
+.site-footer{
 }
 .hide-text {
   overflow: hidden;
@@ -731,6 +729,14 @@ html[xmlns] .clearfix {
     }
     .menu-main-nav-container a, .side-title{
       font-size: 1em;
+      line-height: 1.5em;
+    }
+    #sidebar{
+      font-size: 0.7em;
+      line-height: 1.5em;
+    }
+    #sidebar h3{
+      font-size: 1.5em;
       line-height: 1.5em;
     }
   }
