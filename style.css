@@ -505,7 +505,7 @@ header #brand h1 span {
 header nav {
   font-family: "Quicksand", Helvetica, sans-serif;
 }
-.menu-main-nav-container {
+.menu-main-nav-container, .menu-main-container {
   float: right;
 }
 header nav ul {
@@ -727,7 +727,7 @@ html[xmlns] .clearfix {
       font-size: 0.7em;
       line-height: 1em;
     }
-    .menu-main-nav-container a, .side-title{
+    .menu-main-nav-container a, .side-title, .menu-main-container a{
       font-size: 1em;
       line-height: 1.5em;
     }
@@ -779,7 +779,7 @@ html[xmlns] .clearfix {
       font-size: 10px !important;
       line-height: 50px;
     }
-    .menu-main-nav-container a, .side-title{
+    .menu-main-nav-container a, .side-title, .menu-main-container a{
       font-size: 1em;
       line-height: 1.5em;
     }
@@ -799,7 +799,7 @@ html[xmlns] .clearfix {
       font-size: 6px !important;
       line-height: 30px;
     }
-    .menu-main-nav-container a, .side-title{
+    .menu-main-nav-container a, .side-title, .menu-main-container a{
       font-size: 1em;
       line-height: 1.5em;
     }
