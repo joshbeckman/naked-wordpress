@@ -46,15 +46,11 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 							
 							<?php wp_link_pages(); // This will display pagination links, if applicable to the post ?>
 						</div><!-- the-content -->
-						<?php if (false) : 
-						// This is wrapped in a false statement to not render it. 
-						// Take off this conditional if you want this meta displayed for each post 
-						?>
-							<div class="meta clearfix">
-								<div class="category"><?php echo get_the_category_list(); // Display the categories this post belongs to, as links ?></div>
-								<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); // Display the tags this post has, as links separated by spaces and pipes ?></div>
-							</div><!-- Meta -->
-						<?php endif; ?>
+		
+						<div class="meta clearfix">
+							<div class="category"><?php echo get_the_category_list(); // Display the categories this post belongs to, as links ?></div>
+							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); // Display the tags this post has, as links separated by spaces and pipes ?></div>
+						</div><!-- Meta -->
 						
 					</article>
 
