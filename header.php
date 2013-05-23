@@ -4,7 +4,7 @@
 	/* rendering the page and display the header/nav
 	/*-----------------------------------------------------------------------------------*/
 ?>
-<html <?php language_attributes(); ?>>
+<!DOCTYPE html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
