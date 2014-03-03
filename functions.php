@@ -51,8 +51,8 @@ add_action( 'widgets_init', 'naked_register_sidebars' );
 function naked_scripts()  { 
 
 	// get the theme directory style.css and link to it in the header
-	wp_enqueue_style( 'naked-style', get_template_directory_uri() . '/style.css', '10000', 'all' );
-			
+	wp_enqueue_style('style.css', get_stylesheet_directory_uri() . '/style.css');
+	
 	// add fitvid
 	wp_enqueue_script( 'naked-fitvid', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), NAKED_VERSION, true );
 	
