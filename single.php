@@ -21,7 +21,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 						<h1 class="title"><?php the_title(); // Display the title of the post ?></h1>
 						<div class="post-meta">
 							<?php the_time('m.d.Y'); // Display the time it was published ?>
-							<?php // the author(); Uncomment this and it will display the post author ?>
+							<?php // the_author(); Uncomment this and it will display the post author ?>
 						
 						</div><!--/post-meta -->
 						
