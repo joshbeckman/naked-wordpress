@@ -5,9 +5,9 @@
 	/*-----------------------------------------------------------------------------------*/
 ?>
 
-</div><!-- / end page container, begun in the header -->
+</main><!-- / end page container, begun in the header -->
 
-<footer class="site-footer" role="contentinfo">
+<footer class="site-footer">
 	<div class="site-info container">
 		
 		<p>Birthed <a href="http://bckmn.com/naked-wordpress" rel="theme">Naked</a> 

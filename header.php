@@ -4,8 +4,8 @@
 	/* rendering the page and display the header/nav
 	/*-----------------------------------------------------------------------------------*/
 ?>
-<!DOCTYPE html <?php language_attributes(); ?>>
-<html>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
@@ -44,10 +44,10 @@
 	?>
 >
 
-<header id="masthead" class="site-header" role="banner">
+<header id="masthead" class="site-header">
 	<div class="container center">
 	
-		<nav role="navigation" class="site-navigation main-navigation">
+		<nav class="site-navigation main-navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
 		</nav><!-- .site-navigation .main-navigation -->
 	</div>
@@ -67,4 +67,4 @@
 		
 </header><!-- #masthead .site-header -->
 
-<div class="main-fluid"><!-- start the page containter -->
+<main class="main-fluid"><!-- start the page containter -->
