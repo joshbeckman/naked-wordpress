@@ -204,7 +204,7 @@ textarea {
   /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
 
   vertical-align: baseline;
-  *vertical-align: middle;
+  vertical-align: middle;
   /* Improves appearance and consistency in all browsers */
 
 }
@@ -213,7 +213,7 @@ input {
   line-height: normal;
   /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
 
-  *overflow: visible;
+  overflow: visible;
   /* Corrects inner spacing displayed oddly in IE6/7 */
 
 }
