@@ -1,4 +1,7 @@
 naked-wordpress
 ===============
 
-A well-commented blank Wordpress theme.
+Based on naked-wordpress-master theme by @andjosh.
+Added featured image/post-thumbnail support.
+
+Contribution by @kodewilliams.

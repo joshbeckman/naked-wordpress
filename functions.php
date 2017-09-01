@@ -16,8 +16,11 @@ if ( ! isset( $content_width ) ) $content_width = 900;
 /* Add Rss feed support to Head section
 /*-----------------------------------------------------------------------------------*/
 add_theme_support( 'automatic-feed-links' );
-add_theme_support( 'post-thumbnails' );
 
+/*-----------------------------------------------------------------------------------*/
+/* Add post thumbnail/featured image support
+/*-----------------------------------------------------------------------------------*/
+add_theme_support( 'post-thumbnails' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Register main menu for Wordpress use

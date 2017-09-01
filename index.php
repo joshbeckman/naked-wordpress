@@ -19,7 +19,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 				?>
 
 					<article class="post">
-						
+					
 						<?php the_post_thumbnail('large'); //Get the thumbnail to this post. ?>
 
 						<h1 class="title">
