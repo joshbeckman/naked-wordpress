@@ -20,6 +20,8 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
 					<article class="post">
 					
+						<?php the_post_thumbnail('large'); //Get the thumbnail to this post. ?>
+
 						<h1 class="title">
 							<a href="<?php the_permalink(); // Get the link to this post ?>" title="<?php the_title(); ?>">
 								<?php the_title(); // Show the title of the posts as a link ?>
