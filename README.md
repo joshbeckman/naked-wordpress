@@ -5,6 +5,7 @@ A well-commented blank Wordpress theme.
 
 ### Contributors
 - [@andjosh][0] _(maintainer)_
+  - [Buy Josh a coffee](https://www.buymeacoffee.com/andjosh)!
 - [@kodewilliams][1]
 - [@JohnnyWalkerDesign][2]
 - [@ljllewellyn][3]
