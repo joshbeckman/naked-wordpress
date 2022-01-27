@@ -32,7 +32,6 @@ Download the [zipped theme source](https://github.com/andjosh/naked-wordpress/ar
 
 ### Contributors
 - [@andjosh][0] _(maintainer)_
-  - [Buy Josh a coffee](https://www.buymeacoffee.com/andjosh)!
 - [@kodewilliams][1]
 - [@JohnnyWalkerDesign][2]
 - [@ljllewellyn][3]
